@@ -18,7 +18,10 @@ jedoch werde habe ich die nächsten Tage Zeit mir genauere Gedanken zu machen.
 
 ## Project confirmation
 
-< to be filled by lecturer>
+confirmed.
+
+Ich nehme das mal auf unter dem Namen "online-cv".
+Das wird sicher eine sehr nützliche Anwendung.
 
 
 ## Project delivery <to be filled by student>
