@@ -1,0 +1,45 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #FFFFFF;
+    display: block;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+element.style {
+    overflow-y: hidden;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+}
+
+header {
+    position: fixed;
+    width: 275px;
+    z-index: 99999; /* Stack order, Grössere Zahl ist weiter vorne */
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    background: #051219;
+    color: #FFFFFF;
+    padding: 30px 20px 0 20px !important;
+    
+}

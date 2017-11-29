@@ -1,5 +1,10 @@
 package mvc
 
+import grails.rest.Resource
+
+
+
+@Resource
 class Person {
 
     String firstName
