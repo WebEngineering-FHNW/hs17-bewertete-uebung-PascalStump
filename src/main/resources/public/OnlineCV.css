@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     background: #FFFFFF;
@@ -60,22 +60,65 @@ element.style {
 }
 
 .shortSentence {
+    padding-bottom: 10px;
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
+
+}
+
+.navigation > ul > li > a {
+
+
 }
 
 .navigation {
-    padding-top: 30px;
+    padding-top: 0px;
+    text-align: center;
+
 }
 
-.socialMediaLinks {
-    padding-top: 40px;
+.navigation a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+
+    color: #FFFFFF;
+    display: block;
+    border-bottom: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(50, 49, 49);
+
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Change the link color on hover */
+ul a:hover {
+    background-color: #269abc;
+    color: white;
+}
+
+.socialMediaLinks img {
+    width: 28px;
+    height: 28px;
+    display: inline;
+    margin-left: 140px;
+    padding: 4px;
 }
 
 .copyright {
-    padding-top: 70px;
+    text-align: center;
+    padding-top: 30px;
 }
+
 
 header {
     position: fixed;
@@ -91,3 +134,4 @@ header {
     transition: transform 350ms ease; /* nochmals anschauen */
     display: block;
 }
+
