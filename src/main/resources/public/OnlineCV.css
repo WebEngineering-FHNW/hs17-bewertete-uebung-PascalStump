@@ -128,9 +128,14 @@ ul a:hover {
     width: 28px;
     height: 28px;
     display: inline;
-    margin-left: 140px;
     padding: 4px;
 }
+
+.socialMediaLinks a {
+    display: block;
+    text-align: center;
+}
+
 
 .copyright {
     text-align: center;
@@ -155,14 +160,59 @@ ul a:hover {
 }
 
 
-#header3 {
+#main {
     position: absolute;
     top: 0px;
     left: 60%;
     height: inherit;
     width: 40%;
     display: block;
-    background-color: black;
+    background: #ECECEC;
+}
+
+
+
+
+.innerText h3{
+    margin-left: 20px;
+    color: #5bc0de;
+    font-size: 36px;
+    font-family: "Oswald";
+    font-weight: lighter;
+    padding-top: 10px;
+
+}
+
+.description {
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 90px;
+}
+
+.signature {
+    margin-right: 40px;
+    font-style: italic;
+    text-align: right;
+}
+
+.infoBox {
+    margin-top: 40px;
+    background-color: #5bc0de ;
+    height: 100%;
+
+}
+
+.contactBox {
+    position: absolute;
+    bottom: 5%;
+
+}
+.contactDetails li {
+    color: #FFFFFF;
+    padding-top: 8px;
+    margin-left: 20px;
+
 }
 
 
