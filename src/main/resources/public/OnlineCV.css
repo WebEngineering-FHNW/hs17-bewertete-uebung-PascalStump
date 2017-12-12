@@ -4,7 +4,7 @@ body {
     font-weight: 400;
     background: #FFFFFF;
     display: block;
-    /*aus dem Internet*/
+    /*aus dem Internet
     background-image: initial;
     background-position-x: initial;
     background-position-y: initial;
@@ -14,6 +14,7 @@ body {
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
+    */
     background-color: rgb(255, 255, 255);
     /*-----------------------------------*/
     overflow-x: hidden;
@@ -36,6 +37,21 @@ html, body {
     margin-left: 0px;
 }
 
+#header {
+    position: fixed;
+    width: 20%;
+    height: inherit;
+    z-index: 99999; /* Stack order, Grössere Zahl ist weiter vorne */
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    background: #122b40;
+    color: #FFFFFF;
+    padding: 30px 20px 0 20px !important;
+    transition: transform 350ms ease; /* nochmals anschauen */
+    display: block;
+}
+
 element.style {
     overflow-y: hidden;
     outline: none;
@@ -45,12 +61,14 @@ element.style {
 }
 
 .profilepicture {
+    background-image: url(Mavic.jpg);
+    background-position: center center;
     border-radius: 50%;
     border: 12px solid rgba(0,0,0,0.4);
     width: 180px;
     height: 180px;
-    background-image: url(Mavic.jpg);
-    background-position: center center;
+    max-width: 100%;
+
     background-repeat: no-repeat;
     background-size:296px;
     display: block;
@@ -120,18 +138,35 @@ ul a:hover {
 }
 
 
-header {
-    position: fixed;
-    width: 320px;
+
+/*-----------------Home Profile ---------------------------------------------*/
+
+#header2 {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 40%;
     height: inherit;
-    z-index: 99999; /* Stack order, Grössere Zahl ist weiter vorne */
-    top: 0;
-    left: 0;
-    padding-top: 0;
-    background: #122b40;
-    color: #FFFFFF;
-    padding: 30px 20px 0 20px !important;
-    transition: transform 350ms ease; /* nochmals anschauen */
     display: block;
 }
+
+.bigPicture img {
+    width: 100%;
+}
+
+
+#header3 {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    height: inherit;
+    width: 40%;
+    display: block;
+    background-color: black;
+}
+
+
+
+
+
 
