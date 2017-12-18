@@ -26,17 +26,10 @@ Das wird sicher eine sehr nützliche Anwendung.
 
 ## Project delivery <to be filled by student>
 
-How to start the project: (if other than `grailsw run-app`)
+Open the CVHome.html File
 
-How to test the project:  (if other than `grailsw test-app`)
-
-Project description:      (if other than `/index.html`)
-
-External contributions:
-
-Other comments: 
-
-I'm particular proud of:
+Um noch Funktionen zu implementieren hat mir die Zeit nicht genügt.
+Aber bin sehr zufrieden mit dem Ergebnis.
 
 
 ## Project grading 

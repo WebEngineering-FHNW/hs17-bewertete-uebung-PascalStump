@@ -4,9 +4,6 @@ body {
     font-weight: 400;
     background: #FFFFFF;
     display: block;
-
-
-    /*-----------------------------------*/
     overflow-x: hidden;
     /*overflow-y: hidden; Falls sich die Seite nicht mehr scrollen lassen soll */
 }
@@ -32,6 +29,7 @@ h6 {
     font-size: 14px;
 }
 
+/*-----------------Styling of the NavigationBar on the left ---------------------------------------*/
 #header {
     position: fixed;
     width: 15%;
@@ -39,11 +37,10 @@ h6 {
     z-index: 99999; /* Stack order, Grössere Zahl ist weiter vorne */
     top: 0;
     left: 0;
-
     background: #5e5e5e;
     color: #FFFFFF;
     padding: 30px 20px 0 20px !important;
-    transition: transform 350ms ease; /* nochmals anschauen */
+    transition: transform 350ms ease; /* aus dem Internet */
     display: block;
 }
 
@@ -56,7 +53,6 @@ h6 {
     width: 180px;
     height: 180px;
     max-width: 100%;
-
     background-repeat: no-repeat;
     background-size:296px;
     display: block;
@@ -76,14 +72,10 @@ h6 {
 }
 
 .navigation > ul > li > a {
-
-
 }
 
 .navigation {
-
     text-align: center;
-
 }
 
 .navigation a {
@@ -91,15 +83,11 @@ h6 {
     padding-bottom: 10px;
     text-decoration: none;
     font-size: 14px;
-
     color: #FFFFFF;
     display: block;
-
     border-bottom-width: thin;
     border-bottom-style: solid;
     border-bottom-color: #FFFFFF;
-
-
 }
 
 ul {
@@ -126,15 +114,14 @@ ul a:hover {
     text-align: center;
 }
 
-
 .copyright {
     text-align: center;
     padding-top: 30px;
 }
 
+/*----------------- Finish Styling of the NavigationBar on the left --------------------------------*/
 
-
-/*-----------------Home Profile ---------------------------------------------*/
+/*----------------- Styling of the Home Page ----------------------------------------------------*/
 
 #homeMain {
     position: absolute;
@@ -213,8 +200,9 @@ ul a:hover {
     padding-top: 8px;
     margin-left: 20px;
 }
+/*----------------- Finish Styling of the Home Page ---------------------------------------*/
 
-/*-----------------Finish Home ---------------------------------------------*/
+/*----------------- Styling of the Profile page  ------------------------------------------*/
 
 #profileMain {
     position: absolute;
@@ -303,6 +291,7 @@ ul a:hover {
 
 #abilityDescription1, #abilityDescription2, #abilityDescription3 {
     color: darkslategrey;
+    margin-bottom: 100px;
 
 }
 
@@ -329,8 +318,9 @@ ul a:hover {
     width: 30%;
 
 }
+/*----------------- Finish Styling of the Profile page  ------------------------------------------*/
 
-/* ---------------------------- Resume Styling ------------------------------------- */
+/*----------------- Styling of the Resume page  --------------------------------------------------*/
 
 .ResumeMain {
     position: absolute;
@@ -398,7 +388,8 @@ span.duration1{
 .skillbar-title-photoshop, .skillbar-title-sketch, .skillbar-title-pixelnator,
 .skillbar-title-illustrator, .skillbar-title-java, .skillbar-title-html,
 .skillbar-title-excel, .skillbar-title-word, .skillbar-title-powerpoint,
-.skillbar-title-english, .skillbar-title-french, .skillbar-title-german {
+.skillbar-title-english, .skillbar-title-french, .skillbar-title-german,
+.skillbar-title-football, .skillbar-title-golf ,.skillbar-title-reading, .skillbar-title-photography{
 
     font-family: Roboto;
     color: #FFFFFF;
@@ -522,7 +513,40 @@ span.percent {
     height: 25px;
 }
 
+.skillbar13 {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #0487CC;
+    height: 25px;
+}
 
+.skillbar14 {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 90%;
+    background: #0487CC;
+    height: 25px;
+}
+.skillbar15 {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 70%;
+    background: #0487CC;
+    height: 25px;
+}
+.skillbar16 {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 85%;
+    background: #0487CC;
+    height: 25px;
+}
 
+/*----------------- Finish Styling of the Resume page  ------------------------------------------*/
 
 
